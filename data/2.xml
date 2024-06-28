@@ -1,0 +1,2198 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2016/CIM-schema-cim17#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<cim:Terminal rdf:ID="_2a026449-11c5-11ef-a09d-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a026446-11c5-11ef-8258-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a026447-11c5-11ef-bde5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29a73612-11c5-11ef-afc7-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a73613-11c5-11ef-8f28-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_29fd87b0-11c5-11ef-8a7e-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87af-11c5-11ef-a70f-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fd87ab-11c5-11ef-8faa-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29e517ba-11c5-11ef-be08-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e4dedc-11c5-11ef-bfd6-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29e32e29-11c5-11ef-98d5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2980c854-11c5-11ef-86a8-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2980c851-11c5-11ef-a388-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2980c852-11c5-11ef-8961-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_299407b3-11c5-11ef-b9b9-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_299190a6-11c5-11ef-9d83-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299407b1-11c5-11ef-afad-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d72fe6-11c5-11ef-8a9b-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fe4-11c5-11ef-9ea3-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0ac-11c5-11ef-96e1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29bccd5c-11c5-11ef-9d86-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102002907CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_2a1329e8-11c5-11ef-8b47-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>disconnector-AD102076350CSA-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:SvPowerFlow rdf:ID="_29acb416-11c5-11ef-ac83-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29acb417-11c5-11ef-b9ad-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_29fd87ae-11c5-11ef-b2f3-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87aa-11c5-11ef-abfe-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fd87ac-11c5-11ef-86fa-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab2-11c5-11ef-aa40-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d4ccd7-11c5-11ef-bfda-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4ccd5-11c5-11ef-a191-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299407b1-11c5-11ef-afad-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_297c6890-11c5-11ef-8fc6-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_297c688d-11c5-11ef-8602-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c688e-11c5-11ef-9022-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29d26890-11c5-11ef-b53e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102000853CSA-AD102008022CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29fffe67-11c5-11ef-a05a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe66-11c5-11ef-8d2c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fffe60-11c5-11ef-8e36-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29bccd5a-11c5-11ef-895b-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02551</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03786</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.034181243465e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">231.70127</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29bccd59-11c5-11ef-8ae4-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:VoltageLevel rdf:ID="_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102002907CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17eddd-11c5-11ef-99d9-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:ACLineSegment rdf:ID="_29e0c906-11c5-11ef-9a38-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01063</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02039</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.891680746847999e-06</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96.61213</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29e0c905-11c5-11ef-bb30-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_299d92eb-11c5-11ef-b5a6-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_299d92ea-11c5-11ef-91a3-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299b3125-11c5-11ef-99c5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-external-network-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab2-11c5-11ef-aa40-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a1cd9b7-11c5-11ef-8a8d-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29bf2f74-11c5-11ef-aaab-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f73-11c5-11ef-ba4e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bf2f6d-11c5-11ef-bc4c-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29cb3284-11c5-11ef-8b7b-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01466</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02253</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1617609634492e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">133.27883</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29cb3283-11c5-11ef-b5f1-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29e32e2b-11c5-11ef-98ac-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e0c906-11c5-11ef-9a38-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29e32e29-11c5-11ef-98d5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29fb2327-11c5-11ef-943d-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2326-11c5-11ef-9fd5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fb2322-11c5-11ef-9661-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d26897-11c5-11ef-b168-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d26896-11c5-11ef-8b36-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d26890-11c5-11ef-b53e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29ac628e-11c5-11ef-bec8-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06689</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02007</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29ac628f-11c5-11ef-9c4b-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_29ac628f-11c5-11ef-9c4b-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29ac628d-11c5-11ef-a601-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298a68f8-11c5-11ef-93c7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_299b3127-11c5-11ef-8aea-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_299b3124-11c5-11ef-8921-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299b3125-11c5-11ef-99c5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab2-11c5-11ef-aa40-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29c40b73-11c5-11ef-b955-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29bccd57-11c5-11ef-a45a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd56-11c5-11ef-b6ac-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29ba68de-11c5-11ef-b644-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a23fef6-11c5-11ef-9031-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_2a02644e-11c5-11ef-9a2c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29d26891-11c5-11ef-b29d-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d2688e-11c5-11ef-85e1-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d2688f-11c5-11ef-9eb2-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d4ccd0-11c5-11ef-8932-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4cccd-11c5-11ef-8574-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d4ccce-11c5-11ef-9613-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_297c6894-11c5-11ef-bf57-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_297c6891-11c5-11ef-8c2c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c6892-11c5-11ef-818f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a02644d-11c5-11ef-b345-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a02644b-11c5-11ef-be6c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298ccbc4-11c5-11ef-b9a5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29b1f1e1-11c5-11ef-8f48-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29b1f1df-11c5-11ef-b4bd-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2991909f-11c5-11ef-a4c6-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d4ccd1-11c5-11ef-a8d4-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4cccd-11c5-11ef-8574-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d4cccf-11c5-11ef-9848-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29ba68e0-11c5-11ef-a724-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29ba68dc-11c5-11ef-a2ff-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29ba68de-11c5-11ef-b644-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a23fef6-11c5-11ef-9031-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29fb2324-11c5-11ef-b725-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2321-11c5-11ef-abfc-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fb2322-11c5-11ef-9661-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a1329ea-11c5-11ef-8db0-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a1329e8-11c5-11ef-8b47-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2985a2a3-11c5-11ef-b046-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-disconnector-AD102076350CSA-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_299190a1-11c5-11ef-b0ff-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2991909e-11c5-11ef-be4c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2991909f-11c5-11ef-a4c6-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29bccd55-11c5-11ef-885a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29ba68e1-11c5-11ef-b7e4-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29773233-11c5-11ef-81f1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29d26893-11c5-11ef-81ba-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29d72fdf-11c5-11ef-8359-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fdc-11c5-11ef-9739-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d72fdd-11c5-11ef-bd03-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29e47f54-11c5-11ef-8e78-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e32e2c-11c5-11ef-927e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29e32e28-11c5-11ef-a61d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29cd94f4-11c5-11ef-a4ef-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f1-11c5-11ef-8124-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cd94f2-11c5-11ef-89d7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29fd87b2-11c5-11ef-bea9-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:SvVoltage rdf:ID="_2a1a4fbe-11c5-11ef-81f2-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29a73619-11c5-11ef-96e3-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a73617-11c5-11ef-8ae2-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2980c852-11c5-11ef-8961-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29bccd5b-11c5-11ef-ae00-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102002907CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Substation rdf:ID="_2a17edd8-11c5-11ef-93ea-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Terminal rdf:ID="_29cd94f5-11c5-11ef-9230-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f1-11c5-11ef-8124-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cd94f3-11c5-11ef-bae1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2985a2a5-11c5-11ef-b308-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2985a2a2-11c5-11ef-b315-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2985a2a3-11c5-11ef-b046-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29c40b72-11c5-11ef-a52e-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b6e-11c5-11ef-8f02-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29c40b70-11c5-11ef-a76f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d4cccb-11c5-11ef-90f6-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d26896-11c5-11ef-8b36-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0a4-11c5-11ef-a245-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29cb328c-11c5-11ef-9417-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29fd87b4-11c5-11ef-8161-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87b2-11c5-11ef-bea9-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299b3125-11c5-11ef-99c5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29a4cea2-11c5-11ef-8171-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a4cea0-11c5-11ef-8374-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c688e-11c5-11ef-9022-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d72fe0-11c5-11ef-8b94-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fdc-11c5-11ef-9739-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d72fde-11c5-11ef-a46c-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d26894-11c5-11ef-a149-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d26893-11c5-11ef-81ba-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d2688f-11c5-11ef-9eb2-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a1cd9b3-11c5-11ef-9f9f-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29d4ccd3-11c5-11ef-8136-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4ccd2-11c5-11ef-ad64-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d4ccce-11c5-11ef-9613-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Line rdf:ID="_29d4cccc-11c5-11ef-9139-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:ExternalNetworkInjection rdf:ID="_299d92ea-11c5-11ef-91a3-9c2dcdaa1abc">
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:IdentifiedObject.name>external-network-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+	</cim:ExternalNetworkInjection>
+	<cim:Disconnector rdf:ID="_29c40b76-11c5-11ef-b194-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Substation rdf:ID="_2a1329ee-11c5-11ef-a46d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Terminal rdf:ID="_29bccd63-11c5-11ef-8706-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd62-11c5-11ef-b23a-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bccd5c-11c5-11ef-9d86-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29cd94fa-11c5-11ef-89ab-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f9-11c5-11ef-9c33-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cd94f3-11c5-11ef-bae1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102007588NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17ede5-11c5-11ef-97c5-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:VoltageLevel rdf:ID="_297c688f-11c5-11ef-8d48-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102000853CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d25-11c5-11ef-a478-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Terminal rdf:ID="_29bccd61-11c5-11ef-a0af-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd5f-11c5-11ef-9631-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29773233-11c5-11ef-81f1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29cb3287-11c5-11ef-8fa8-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb3284-11c5-11ef-8b7b-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cb3285-11c5-11ef-83ed-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29a4cea0-11c5-11ef-8374-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14228</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04268</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29fd87a8-11c5-11ef-87b1-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2329-11c5-11ef-a60d-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977323b-11c5-11ef-bb4e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29ba68df-11c5-11ef-88cf-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29ba68dc-11c5-11ef-a2ff-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29ba68dd-11c5-11ef-9059-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29cd94f7-11c5-11ef-b809-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f6-11c5-11ef-aef5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cd94f2-11c5-11ef-89d7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_298ccbc6-11c5-11ef-8690-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_298a6903-11c5-11ef-832d-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298ccbc4-11c5-11ef-b9a5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29b0cac0-11c5-11ef-84a8-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0294</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.00882</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29e54717-11c5-11ef-bcb5-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e4dedc-11c5-11ef-bfd6-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0ac-11c5-11ef-96e1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29a2a9f3-11c5-11ef-a63b-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14994</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04498</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Line rdf:ID="_29cd94f0-11c5-11ef-820b-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:EnergyConsumer rdf:ID="_29acb415-11c5-11ef-987e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29c40b71-11c5-11ef-963d-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b6e-11c5-11ef-8f02-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29c40b6f-11c5-11ef-9381-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a1a4fc8-11c5-11ef-80a0-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:ACLineSegment rdf:ID="_29fb2321-11c5-11ef-abfc-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01887</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02797</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5092211109816e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">171.57976</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29fb2320-11c5-11ef-a13a-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29bf2f71-11c5-11ef-ba51-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f70-11c5-11ef-b869-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bf2f6c-11c5-11ef-9e8f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29e4dedb-11c5-11ef-a715-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e32e2c-11c5-11ef-927e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2985a2a3-11c5-11ef-b046-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29b5a47c-11c5-11ef-a4cf-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_298f2df5-11c5-11ef-b424-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_298f2df2-11c5-11ef-a5f1-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298f2df3-11c5-11ef-930a-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29cb3286-11c5-11ef-a24e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002194NSA-AD102000813NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Line rdf:ID="_2a0bedbe-11c5-11ef-b1da-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Terminal rdf:ID="_29a9c435-11c5-11ef-9252-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a9c433-11c5-11ef-af42-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2985a2a3-11c5-11ef-b046-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_2998d0ac-11c5-11ef-96e1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Substation rdf:ID="_2a158d28-11c5-11ef-9759-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:TopologicalNode rdf:ID="_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102007588NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Terminal rdf:ID="_29b0cac2-11c5-11ef-81bb-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29b0cac0-11c5-11ef-84a8-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298f2df3-11c5-11ef-930a-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_297c6892-11c5-11ef-818f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ACLineSegment rdf:ID="_2a026446-11c5-11ef-8258-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.033</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0489</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6389378293600005e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2a026445-11c5-11ef-ac53-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29c40b78-11c5-11ef-a91a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b76-11c5-11ef-b194-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299407b1-11c5-11ef-afad-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_2977323c-11c5-11ef-ab87-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102004246NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a1329ee-11c5-11ef-a46d-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Terminal rdf:ID="_29fffe64-11c5-11ef-ad78-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe63-11c5-11ef-bfdc-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fffe5f-11c5-11ef-b243-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29ba68dd-11c5-11ef-9059-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102075864CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_29fffe5f-11c5-11ef-b243-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102003187CSA-AD102076507NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_297c688e-11c5-11ef-9022-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:SvVoltage rdf:ID="_2a1a4fc0-11c5-11ef-a125-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29acb417-11c5-11ef-b9ad-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29acb415-11c5-11ef-987e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298ccbc4-11c5-11ef-b9a5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29fffe60-11c5-11ef-8e36-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102003187CSA-AD102076507NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29cd94fb-11c5-11ef-8f12-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f9-11c5-11ef-9c33-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c688e-11c5-11ef-9022-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:TopologicalNode rdf:ID="_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102078027NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Line rdf:ID="_29d72fdb-11c5-11ef-837c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Terminal rdf:ID="_29fd87ad-11c5-11ef-81d5-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87aa-11c5-11ef-abfe-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fd87ab-11c5-11ef-8faa-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2998d0a6-11c5-11ef-8dfd-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29966bfb-11c5-11ef-a9dc-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0a4-11c5-11ef-a245-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2977323d-11c5-11ef-8455-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2977323a-11c5-11ef-9f9c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977323b-11c5-11ef-bb4e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Substation rdf:ID="_2a1329e7-11c5-11ef-b84f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>substation-AD102076350CSA-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Terminal rdf:ID="_2a0bedc5-11c5-11ef-acfc-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0bedc4-11c5-11ef-b00e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a0bedc0-11c5-11ef-b601-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29b0cac1-11c5-11ef-8e48-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0294</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.00882</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29b0cac2-11c5-11ef-81bb-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:BusbarSection rdf:ID="_29966bfb-11c5-11ef-a9dc-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Terminal rdf:ID="_29fd87b1-11c5-11ef-a4c4-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87af-11c5-11ef-a70f-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298a68f8-11c5-11ef-93c7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:BusbarSection rdf:ID="_298f2df2-11c5-11ef-a5f1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:EnergyConsumer rdf:ID="_29a2a9fc-11c5-11ef-8274-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.20808</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06242</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:ConnectivityNode rdf:ID="_29d4ccce-11c5-11ef-9613-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102078027NSA-AD102002873FSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_29ba68e1-11c5-11ef-b7e4-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Substation rdf:ID="_2a158d26-11c5-11ef-bca5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Disconnector rdf:ID="_2a0d9c21-11c5-11ef-86fb-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29bccd54-11c5-11ef-a28d-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29ba68e1-11c5-11ef-b7e4-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29ba68dd-11c5-11ef-9059-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29fd87aa-11c5-11ef-abfe-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09278</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.13793</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.4135303449092e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">843.4501</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29fd87a9-11c5-11ef-9658-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:SvPowerFlow rdf:ID="_29b5a477-11c5-11ef-99d2-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29b5a478-11c5-11ef-858c-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_2a02644a-11c5-11ef-ad89-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a026446-11c5-11ef-8258-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a026448-11c5-11ef-a651-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29bf2f6e-11c5-11ef-991e-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f6b-11c5-11ef-b1c9-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bf2f6c-11c5-11ef-9e8f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Substation rdf:ID="_2a17eddd-11c5-11ef-99d9-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Disconnector rdf:ID="_29bf2f70-11c5-11ef-b869-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Substation rdf:ID="_2a158d35-11c5-11ef-8144-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:ConnectivityNode rdf:ID="_29c40b70-11c5-11ef-a76f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102004246NSA-AD102002873FSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Substation rdf:ID="_2a158d32-11c5-11ef-b039-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Terminal rdf:ID="_29fd87b3-11c5-11ef-b59b-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fd87b2-11c5-11ef-bea9-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fd87ac-11c5-11ef-86fa-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102008022CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17ede3-11c5-11ef-8c97-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:ACLineSegment rdf:ID="_29d72fdc-11c5-11ef-9739-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01367</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02622</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0150485865074e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.28018</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29d72fdb-11c5-11ef-837c-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:ConnectivityNode rdf:ID="_29773233-11c5-11ef-81f1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29c40b75-11c5-11ef-8dd8-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b73-11c5-11ef-b955-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977323b-11c5-11ef-bb4e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29cb328d-11c5-11ef-9a3e-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb328c-11c5-11ef-9417-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cb3286-11c5-11ef-a24e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29d26896-11c5-11ef-8b36-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:SvVoltage rdf:ID="_2a1a4fca-11c5-11ef-b9b0-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Substation rdf:ID="_2a17eddf-11c5-11ef-8c5c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:ConnectivityNode rdf:ID="_29e32e28-11c5-11ef-a61d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076350CSB-AD102007588NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:SubGeographicalRegion rdf:ID="_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>subregion-areti-unifilar</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2974d474-11c5-11ef-9b0f-9c2dcdaa1abc"/>
+	</cim:SubGeographicalRegion>
+	<cim:EnergyConsumer rdf:ID="_29ac628d-11c5-11ef-a601-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06689</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02007</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29b5a47e-11c5-11ef-bf0c-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29b5a47c-11c5-11ef-a4cf-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0ac-11c5-11ef-96e1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29d4ccd5-11c5-11ef-a191-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29fb2323-11c5-11ef-8cf8-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002607CSA-AD102004246NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:BusbarSection rdf:ID="_2977323a-11c5-11ef-9f9c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Disconnector rdf:ID="_29fffe63-11c5-11ef-bfdc-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_2998d0ae-11c5-11ef-b384-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2998d0ab-11c5-11ef-8075-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0ac-11c5-11ef-96e1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29d26895-11c5-11ef-b126-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d26893-11c5-11ef-81ba-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c688e-11c5-11ef-9022-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:BusbarSection rdf:ID="_29773232-11c5-11ef-be91-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Terminal rdf:ID="_2977324d-11c5-11ef-a8c1-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2977324a-11c5-11ef-8f60-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977324b-11c5-11ef-b168-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Line rdf:ID="_2a026445-11c5-11ef-ac53-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Terminal rdf:ID="_29bf2f69-11c5-11ef-9b0c-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd62-11c5-11ef-b23a-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2991909f-11c5-11ef-a4c6-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:TopologicalNode rdf:ID="_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102004246NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Terminal rdf:ID="_29bccd5e-11c5-11ef-97a2-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd5a-11c5-11ef-895b-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bccd5c-11c5-11ef-9d86-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Substation rdf:ID="_2a158d25-11c5-11ef-a478-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:TopologicalNode rdf:ID="_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002194NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:SvPowerFlow rdf:ID="_29a2a9fd-11c5-11ef-9de8-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.20808</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06242</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a2a9fe-11c5-11ef-83ee-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:ConnectivityNode rdf:ID="_2977324b-11c5-11ef-b168-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_2980c852-11c5-11ef-8961-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:VoltageLevel rdf:ID="_2991909c-11c5-11ef-8d7e-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102075864CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17eddc-11c5-11ef-a132-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:ACLineSegment rdf:ID="_29ba68dc-11c5-11ef-a2ff-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0256</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03793</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0470617733464e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">232.71622</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29ba68db-11c5-11ef-9d08-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29fb2325-11c5-11ef-9131-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2321-11c5-11ef-abfc-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fb2323-11c5-11ef-8cf8-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29cd94f1-11c5-11ef-8124-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.033</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0489</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6389378293600005e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29cd94f0-11c5-11ef-820b-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:ID="_29d2688e-11c5-11ef-85e1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.033</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0489</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6389378293600005e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29d2688d-11c5-11ef-a29e-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29bf2f75-11c5-11ef-a048-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f73-11c5-11ef-ba4e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c6892-11c5-11ef-818f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29a2a9f5-11c5-11ef-a428-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a2a9f3-11c5-11ef-a63b-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977323b-11c5-11ef-bb4e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc7-11c5-11ef-8cac-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a0bedc2-11c5-11ef-ba1e-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0bedbf-11c5-11ef-81e3-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a0bedc0-11c5-11ef-b601-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102002607CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d32-11c5-11ef-b039-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:TopologicalNode rdf:ID="_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076350CSB-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:SvVoltage rdf:ID="_2a219ab1-11c5-11ef-a71f-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_298a68fa-11c5-11ef-851a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_298a68f7-11c5-11ef-b605-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298a68f8-11c5-11ef-93c7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29b1f1e0-11c5-11ef-a587-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.12083</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03625</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29b1f1e1-11c5-11ef-8f48-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_29cd94ef-11c5-11ef-b991-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb328c-11c5-11ef-9417-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2980c852-11c5-11ef-8961-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:BusbarSection rdf:ID="_298a6903-11c5-11ef-832d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Terminal rdf:ID="_29fb2328-11c5-11ef-ab04-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2326-11c5-11ef-9fd5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298a68f8-11c5-11ef-93c7-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29b5a478-11c5-11ef-858c-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29b5a476-11c5-11ef-b3b1-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0a4-11c5-11ef-a245-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_297c6893-11c5-11ef-964d-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102078027NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d26-11c5-11ef-bca5-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:SvVoltage rdf:ID="_2a1f2567-11c5-11ef-84d6-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1f2566-11c5-11ef-936e-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:VoltageLevel rdf:ID="_299407b2-11c5-11ef-a019-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102002873FSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17eddf-11c5-11ef-8c5c-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:BusbarSection rdf:ID="_2980c851-11c5-11ef-a388-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:ACLineSegment rdf:ID="_29fffe5e-11c5-11ef-ba86-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.033</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0489</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6389378293600005e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29fffe5d-11c5-11ef-a10d-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:BusbarSection rdf:ID="_297c6891-11c5-11ef-8c2c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Substation rdf:ID="_2a17ede5-11c5-11ef-97c5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Terminal rdf:ID="_2a0d9c23-11c5-11ef-84db-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0d9c21-11c5-11ef-86fb-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2998d0a4-11c5-11ef-a245-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29bf2f6b-11c5-11ef-b1c9-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01484</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02199</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1865795454158001e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.90216</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29bf2f6a-11c5-11ef-a836-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29fb232a-11c5-11ef-b260-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fb2329-11c5-11ef-a60d-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fb2323-11c5-11ef-8cf8-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29c40b77-11c5-11ef-8245-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b76-11c5-11ef-b194-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29c40b70-11c5-11ef-a76f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_2a026448-11c5-11ef-a651-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102003187CSA-AD102002907CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29fffe62-11c5-11ef-a9b2-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe5e-11c5-11ef-ba86-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fffe60-11c5-11ef-8e36-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29b1f1df-11c5-11ef-b4bd-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.12083</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03625</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Disconnector rdf:ID="_29bccd5f-11c5-11ef-9631-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:SvPowerFlow rdf:ID="_29a2a9ee-11c5-11ef-8527-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.13165</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03949</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a2a9ef-11c5-11ef-a0aa-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Line rdf:ID="_29fb2320-11c5-11ef-a13a-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Disconnector rdf:ID="_2a0bedc4-11c5-11ef-b00e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Disconnector rdf:ID="_29cb3289-11c5-11ef-9c14-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_2991909f-11c5-11ef-a4c6-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:BusbarSection rdf:ID="_2985a2a2-11c5-11ef-b315-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Terminal rdf:ID="_29fffe61-11c5-11ef-b369-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe5e-11c5-11ef-ba86-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29fffe5f-11c5-11ef-b243-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a219ab7-11c5-11ef-b5d1-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:TopologicalNode rdf:ID="_2a1cd9b6-11c5-11ef-931d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102000853CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Terminal rdf:ID="_29a2a9ef-11c5-11ef-a0aa-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a2a9ed-11c5-11ef-a17e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29773233-11c5-11ef-81f1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_299b3126-11c5-11ef-98d3-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD001090094257_AD109412N-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17edea-11c5-11ef-9e85-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Terminal rdf:ID="_29773235-11c5-11ef-bbe3-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29773232-11c5-11ef-be91-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29773233-11c5-11ef-81f1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-busbar-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a0bedc3-11c5-11ef-97b2-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0bedbf-11c5-11ef-81e3-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a0bedc1-11c5-11ef-adc5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_2985a2a3-11c5-11ef-b046-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:TopologicalNode rdf:ID="_2a1a4fbf-11c5-11ef-8546-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002907CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:SvVoltage rdf:ID="_2a1a4fc2-11c5-11ef-95b9-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29a2a9fe-11c5-11ef-83ee-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a2a9fc-11c5-11ef-8274-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977324b-11c5-11ef-b168-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b2-11c5-11ef-ac09-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_2a0bedc1-11c5-11ef-adc5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076507NSA-AD102008022CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Substation rdf:ID="_2a17eddc-11c5-11ef-a132-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:Disconnector rdf:ID="_29fffe66-11c5-11ef-8d2c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29bf2f6c-11c5-11ef-9e8f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102078027NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_29d72fe4-11c5-11ef-9ea3-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29cd94f2-11c5-11ef-89d7-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002194NSA-AD102000853CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_29cd94f9-11c5-11ef-9c33-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_2998d0a4-11c5-11ef-a245-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_29ba68de-11c5-11ef-b644-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102075864CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2991909c-11c5-11ef-8d7e-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:VoltageLevel rdf:ID="_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102002194NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d22-11c5-11ef-a1af-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Terminal rdf:ID="_29cd94f8-11c5-11ef-82d4-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cd94f6-11c5-11ef-aef5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977324b-11c5-11ef-b168-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a02644c-11c5-11ef-8c46-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a02644b-11c5-11ef-be6c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a026447-11c5-11ef-bde5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:TopologicalNode rdf:ID="_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102008022CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Disconnector rdf:ID="_29e32e2c-11c5-11ef-927e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29b1f1e7-11c5-11ef-9209-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29b1f1e5-11c5-11ef-9448-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_299407b1-11c5-11ef-afad-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Disconnector rdf:ID="_29d72fe1-11c5-11ef-96c5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29d4ccd4-11c5-11ef-aeea-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4ccd2-11c5-11ef-ad64-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c6892-11c5-11ef-818f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a02644f-11c5-11ef-91ad-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a02644e-11c5-11ef-9a2c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a026448-11c5-11ef-a651-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29b1f1e5-11c5-11ef-9448-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.11411</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03423</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:ConnectivityNode rdf:ID="_29d2688f-11c5-11ef-9eb2-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102000853CSA-AD102008022CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Line rdf:ID="_29fd87a9-11c5-11ef-9658-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:ConnectivityNode rdf:ID="_29d4cccf-11c5-11ef-9848-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102078027NSA-AD102002873FSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_2a026450-11c5-11ef-9821-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a02644e-11c5-11ef-9a2c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2991909f-11c5-11ef-a4c6-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_2a0bedbf-11c5-11ef-81e3-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.033</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0489</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6389378293600005e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2a0bedbe-11c5-11ef-b1da-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Substation rdf:ID="_2a17edea-11c5-11ef-9e85-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:BusbarSection rdf:ID="_2991909e-11c5-11ef-be4c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:ConnectivityNode rdf:ID="_298ccbc4-11c5-11ef-b9a5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102003187CSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_29bccd56-11c5-11ef-b6ac-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2991909c-11c5-11ef-8d7e-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:TopologicalNode rdf:ID="_2a219ab6-11c5-11ef-9b6a-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102003187CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:VoltageLevel rdf:ID="_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102003187CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d35-11c5-11ef-8144-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:ConnectivityNode rdf:ID="_29cd94f3-11c5-11ef-bae1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002194NSA-AD102000853CSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_299b3125-11c5-11ef-99c5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:EnergyConsumer rdf:ID="_29a2a9ed-11c5-11ef-a17e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.13165</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03949</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29d72fe3-11c5-11ef-9766-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fe1-11c5-11ef-96c5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2980c852-11c5-11ef-8961-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:BusbarSection rdf:ID="_2977324a-11c5-11ef-8f60-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Disconnector rdf:ID="_2a02644b-11c5-11ef-be6c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102003187CSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Terminal rdf:ID="_29d72fe2-11c5-11ef-aa5b-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fe1-11c5-11ef-96c5-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d72fdd-11c5-11ef-bd03-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ACLineSegment rdf:ID="_29d4cccd-11c5-11ef-8574-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.00577</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.00855</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6149996087260005e-06</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.45734</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29d4cccc-11c5-11ef-9139-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:Terminal rdf:ID="_29cb328a-11c5-11ef-8e50-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb3289-11c5-11ef-9c14-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cb3285-11c5-11ef-83ed-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29e32e2a-11c5-11ef-afc6-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29e0c906-11c5-11ef-9a38-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29e32e28-11c5-11ef-a61d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a219ab3-11c5-11ef-adc3-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a219ab2-11c5-11ef-aa40-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:BusbarSection rdf:ID="_298a68f7-11c5-11ef-b605-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Substation rdf:ID="_2a158d22-11c5-11ef-a1af-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102002194NSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:ConnectivityNode rdf:ID="_29d72fde-11c5-11ef-a46c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102000813NSA-AD102007588NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29cb3288-11c5-11ef-bde5-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb3284-11c5-11ef-8b7b-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29cb3286-11c5-11ef-a24e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29a73613-11c5-11ef-8f28-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29a4cea3-11c5-11ef-b1be-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_297c6892-11c5-11ef-818f-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term-load-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29b5a476-11c5-11ef-b3b1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0a5-11c5-11ef-b9fc-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Disconnector rdf:ID="_29bccd62-11c5-11ef-b23a-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299190a0-11c5-11ef-b3fb-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:SvVoltage rdf:ID="_2a1cd9c1-11c5-11ef-b8b9-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Line rdf:ID="_29ba68db-11c5-11ef-9d08-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102076174FSA-AD102075864CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:SvVoltage rdf:ID="_2a1cd9b5-11c5-11ef-b033-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Terminal rdf:ID="_29c40b74-11c5-11ef-8f61-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29c40b73-11c5-11ef-b955-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29c40b6f-11c5-11ef-9381-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:EnergyConsumer rdf:ID="_29a73617-11c5-11ef-8ae2-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14533</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0436</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_2a0bedc6-11c5-11ef-9bee-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0bedc4-11c5-11ef-b00e-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298f2df3-11c5-11ef-930a-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29b5a47d-11c5-11ef-ae60-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29b5a47e-11c5-11ef-bf0c-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Terminal rdf:ID="_29d72fe5-11c5-11ef-90f8-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d72fe4-11c5-11ef-9ea3-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d72fde-11c5-11ef-a46c-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102000813NSA-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29fd87ac-11c5-11ef-86fa-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002607CSA-AD001090094257_AD109412N-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_2a026447-11c5-11ef-bde5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102003187CSA-AD102002907CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298ccbc5-11c5-11ef-9025-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:EnergyConsumer rdf:ID="_29a9c433-11c5-11ef-af42-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102076350CSB</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:Terminal rdf:ID="_29bccd5d-11c5-11ef-88aa-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd5a-11c5-11ef-895b-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bccd5b-11c5-11ef-ae00-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_299407b1-11c5-11ef-afad-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:SvPowerFlow rdf:ID="_29b1f1e6-11c5-11ef-b9b1-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.11411</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03423</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29b1f1e7-11c5-11ef-9209-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:TopologicalNode rdf:ID="_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076507NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Terminal rdf:ID="_29fffe65-11c5-11ef-a34f-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe63-11c5-11ef-bfdc-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298ccbc4-11c5-11ef-b9a5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Line rdf:ID="_29bf2f6a-11c5-11ef-a836-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Terminal rdf:ID="_29d26892-11c5-11ef-8238-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d2688e-11c5-11ef-85e1-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d26890-11c5-11ef-b53e-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1cd9c0-11c5-11ef-b2dd-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_29bf2f6f-11c5-11ef-92a4-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f6b-11c5-11ef-b1c9-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bf2f6d-11c5-11ef-bc4c-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+		<cim:Terminal.TopologicalNode rdf:resource="#_2a1a4fc1-11c5-11ef-b9a6-9c2dcdaa1abc"/>
+	</cim:Terminal>
+	<cim:VoltageLevel rdf:ID="_2985a2a4-11c5-11ef-b4d8-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102076350CSB-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a1329e7-11c5-11ef-b84f-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Disconnector rdf:ID="_29fb2329-11c5-11ef-a60d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:BusbarSection rdf:ID="_299190a6-11c5-11ef-9d83-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:TopologicalNode rdf:ID="_2a23fef6-11c5-11ef-9031-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102075864CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2991909c-11c5-11ef-8d7e-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Disconnector rdf:ID="_29d4ccd2-11c5-11ef-ad64-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ACLineSegment rdf:ID="_29c40b6e-11c5-11ef-8f02-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>acLineSegment-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACLineSegment.x rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05693</cim:ACLineSegment.x>
+		<cim:ACLineSegment.r rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.09609</cim:ACLineSegment.r>
+		<cim:ACLineSegment.gch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.bch rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3991721933962e-05</cim:ACLineSegment.bch>
+		<cim:Conductor.length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">517.54774</cim:Conductor.length>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29c40b6d-11c5-11ef-950d-9c2dcdaa1abc"/>
+	</cim:ACLineSegment>
+	<cim:VoltageLevel rdf:ID="_29773234-11c5-11ef-b9f6-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102076174FSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a1329ec-11c5-11ef-a4c7-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:ConnectivityNode rdf:ID="_29fb2322-11c5-11ef-9661-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002607CSA-AD102004246NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:VoltageLevel rdf:ID="_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102076507NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a17edd8-11c5-11ef-93ea-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Terminal rdf:ID="_29cb328b-11c5-11ef-b344-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29cb3289-11c5-11ef-9c14-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2977324b-11c5-11ef-b168-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_2a0d9c22-11c5-11ef-a52a-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_2a0d9c21-11c5-11ef-86fb-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_2a0bedc1-11c5-11ef-adc5-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102076507NSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_29c40b6f-11c5-11ef-9381-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102004246NSA-AD102002873FSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_29fd87ab-11c5-11ef-8faa-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002607CSA-AD001090094257_AD109412N-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Disconnector rdf:ID="_29fb2326-11c5-11ef-9fd5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102002607CSA-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29bf2f6d-11c5-11ef-bc4c-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076174FSA-AD102078027NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:EnergyConsumer rdf:ID="_29a4cea3-11c5-11ef-b1be-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>load-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:EnergyConsumer.pfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:EnergyConsumer.qfixed>
+	</cim:EnergyConsumer>
+	<cim:SvVoltage rdf:ID="_2a219ab9-11c5-11ef-a443-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a219ab8-11c5-11ef-b224-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:TopologicalNode rdf:ID="_2a1a4fbd-11c5-11ef-8100-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102076174FSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_29773234-11c5-11ef-b9f6-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Line rdf:ID="_29d2688d-11c5-11ef-a29e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102000853CSA-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:GeographicalRegion rdf:ID="_2974d474-11c5-11ef-9b0f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>region-areti-unifilar</cim:IdentifiedObject.name>
+	</cim:GeographicalRegion>
+	<cim:SvPowerFlow rdf:ID="_29a2a9f4-11c5-11ef-b081-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14994</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04498</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a2a9f5-11c5-11ef-a428-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Line rdf:ID="_29cb3283-11c5-11ef-b5f1-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102002194NSA-AD102000813NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Disconnector rdf:ID="_29cd94f6-11c5-11ef-aef5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102002194NSA-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Line rdf:ID="_29bccd59-11c5-11ef-8ae4-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Disconnector rdf:ID="_29bf2f73-11c5-11ef-ba4e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c6893-11c5-11ef-964d-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:Line rdf:ID="_29fffe5d-11c5-11ef-a10d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:ConnectivityNode rdf:ID="_29e32e29-11c5-11ef-98d5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076350CSB-AD102007588NSA-switch2</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:BusbarSection rdf:ID="_2998d0ab-11c5-11ef-8075-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:Terminal rdf:ID="_29bccd60-11c5-11ef-9fd8-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bccd5f-11c5-11ef-9631-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29bccd5b-11c5-11ef-ae00-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker1-acLineSegment-AD102076174FSA-AD102002907CSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:ConnectivityNode rdf:ID="_298a68f8-11c5-11ef-93c7-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102002607CSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:TopologicalNode rdf:ID="_2a219ab2-11c5-11ef-aa40-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD001090094257_AD109412N-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:Terminal rdf:ID="_29bf2f72-11c5-11ef-bad6-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29bf2f70-11c5-11ef-b869-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29773233-11c5-11ef-81f1-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker1-acLineSegment-AD102076174FSA-AD102078027NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvVoltage rdf:ID="_2a23fef7-11c5-11ef-9d18-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a23fef6-11c5-11ef-9031-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:Disconnector rdf:ID="_29e4dedc-11c5-11ef-bfd6-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker2-acLineSegment-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_2998d0ad-11c5-11ef-9630-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29cb3285-11c5-11ef-83ed-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102002194NSA-AD102000813NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977324c-11c5-11ef-a7e3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_298f2df3-11c5-11ef-930a-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_29d4ccd6-11c5-11ef-9242-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29d4ccd5-11c5-11ef-a191-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_29d4cccf-11c5-11ef-9848-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term1-breaker2-acLineSegment-AD102078027NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:BusbarSection rdf:ID="_297c688d-11c5-11ef-8602-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102000853CSA</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_297c688f-11c5-11ef-8d48-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:ConnectivityNode rdf:ID="_2977323b-11c5-11ef-bb4e-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-busbar-AD102004246NSA</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2977323c-11c5-11ef-ab87-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Terminal rdf:ID="_2a026444-11c5-11ef-9f02-9c2dcdaa1abc">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_29fffe66-11c5-11ef-8d2c-9c2dcdaa1abc"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_298f2df3-11c5-11ef-930a-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>term2-breaker2-acLineSegment-AD102003187CSA-AD102076507NSA</cim:IdentifiedObject.name>
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+		<cim:ACDCTerminal.sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cim:ACDCTerminal.sequenceNumber>
+		<cim:Terminal.phases rdf:resource="#PhaseCode.ABC"/>
+	</cim:Terminal>
+	<cim:SvPowerFlow rdf:ID="_29a73618-11c5-11ef-9e21-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14533</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0436</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a73619-11c5-11ef-96e3-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:BaseVoltage rdf:ID="_2977322d-11c5-11ef-a76d-9c2dcdaa1abc">
+		<cim:BaseVoltage.nominalVoltage rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>20.0</cim:IdentifiedObject.name>
+	</cim:BaseVoltage>
+	<cim:Disconnector rdf:ID="_29fd87af-11c5-11ef-a70f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>breaker1-acLineSegment-AD102002607CSA-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+	</cim:Disconnector>
+	<cim:ConnectivityNode rdf:ID="_29d72fdd-11c5-11ef-bd03-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102000813NSA-AD102007588NSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_2a0bedc0-11c5-11ef-b601-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>CN-acLineSegment-AD102076507NSA-AD102008022CSA-switch1</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_298f2df4-11c5-11ef-bcf9-9c2dcdaa1abc"/>
+	</cim:ConnectivityNode>
+	<cim:Substation rdf:ID="_2a1329ec-11c5-11ef-a4c7-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102076174FSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:TopologicalNode rdf:ID="_2a1a4fc9-11c5-11ef-a70d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002873FSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_299407b2-11c5-11ef-a019-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:SvPowerFlow rdf:ID="_29a9c434-11c5-11ef-a5bc-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a9c435-11c5-11ef-9252-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:Line rdf:ID="_29c40b6d-11c5-11ef-950d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102004246NSA-AD102002873FSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:SvPowerFlow rdf:ID="_29a4cea1-11c5-11ef-aa03-9c2dcdaa1abc">
+		<cim:SvPowerFlow.p rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.14228</cim:SvPowerFlow.p>
+		<cim:SvPowerFlow.q rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04268</cim:SvPowerFlow.q>
+		<cim:SvPowerFlow.Terminal rdf:resource="#_29a4cea2-11c5-11ef-8171-9c2dcdaa1abc"/>
+	</cim:SvPowerFlow>
+	<cim:VoltageLevel rdf:ID="_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc">
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+		<cim:IdentifiedObject.name>busbar-AD102000813NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.Substation rdf:resource="#_2a158d28-11c5-11ef-9759-9c2dcdaa1abc"/>
+	</cim:VoltageLevel>
+	<cim:Line rdf:ID="_29e0c905-11c5-11ef-bb30-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>line-AD102076350CSB-AD102007588NSA</cim:IdentifiedObject.name>
+		<cim:Line.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Line>
+	<cim:Substation rdf:ID="_2a17ede3-11c5-11ef-8c97-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Substation-AD102008022CSA</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_2974d473-11c5-11ef-a6fc-9c2dcdaa1abc"/>
+	</cim:Substation>
+	<cim:TopologicalNode rdf:ID="_2a219ab0-11c5-11ef-8aa5-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102002607CSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_298a68f9-11c5-11ef-aa67-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:TopologicalNode rdf:ID="_2a1cd9b4-11c5-11ef-bb5f-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD102000813NSA-20.0kV</cim:IdentifiedObject.name>
+		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2980c853-11c5-11ef-a3f3-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.TopologicalIsland rdf:resource="#_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc"/>
+		<cim:TopologicalNode.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:TopologicalNode>
+	<cim:BusbarSection rdf:ID="_299b3124-11c5-11ef-8921-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>busbar-AD001090094257_AD109412N</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_299b3126-11c5-11ef-98d3-9c2dcdaa1abc"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2977322d-11c5-11ef-a76d-9c2dcdaa1abc"/>
+	</cim:BusbarSection>
+	<cim:SvVoltage rdf:ID="_2a20c200-11c5-11ef-b63a-9c2dcdaa1abc">
+		<cim:SvVoltage.v rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</cim:SvVoltage.v>
+		<cim:SvVoltage.angle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</cim:SvVoltage.angle>
+		<cim:SvVoltage.TopologicalNode rdf:resource="#_2a1f2578-11c5-11ef-84bc-9c2dcdaa1abc"/>
+	</cim:SvVoltage>
+	<cim:TopologicalIsland rdf:ID="_2a1a4fb7-11c5-11ef-ac6d-9c2dcdaa1abc">
+		<cim:IdentifiedObject.name>Island 2</cim:IdentifiedObject.name>
+	</cim:TopologicalIsland>
+</rdf:RDF>
